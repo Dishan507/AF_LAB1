@@ -1,0 +1,18 @@
+4)Create a separate function using JavaScript closure which accepts the tax percentage and returns a function which accepts the amount and returns the amount after adding tax percentage. Try adding tax percentage to ‘this’ object and check if it works
+
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function getTax(varTax){
+	return function getAmount(amount){
+		amount=amount+varTax;
+		return amount;
+	}
+}
+var amountCnt=getTax(25);
+console.log(amountCnt(200));
+</script>
+</body>
+</html>
