@@ -1,4 +1,4 @@
-﻿# AF_LAB1##
+# AF_LAB1
 There are five questions related to JavaScript with their answers
 
 1)Create a function as a variable (function expression) that prints ‘Hello World’ to console and another function which accepts a variable. The argument passed to the second function should be executed as a function inside the body. Call the second function passing the first function as the argument. Check the output
