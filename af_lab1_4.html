@@ -4,13 +4,13 @@
 </head>
 <body>
 <script type="text/javascript">
-function getTax(varTax){
-	return function getAmount(amount){
+function getAmount(varTax){
+	return function(amount){
 		amount=amount+varTax;
 		return amount;
 	}
 }
-var amountCnt=getTax(25);
+var amountCnt=getAmount(25);
 console.log(amountCnt(200));
 </script>
 </body>
